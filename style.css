@@ -229,7 +229,7 @@ select.unidade{
 
 /*propaganda*/
 .propaganda{
-    padding-left: 9vw;
+    padding-left: 6.5vw;
     padding-right: 27vw;
 }
 
@@ -254,7 +254,7 @@ select.unidade{
 }
 
 .propaganda .propaganda-fotos .foto-unica img{
-    width: 48vw;
+    width: 50vw;
     height: auto;
     opacity: 1;  
     margin-top: 4.5vw;  
@@ -295,30 +295,93 @@ h1{
 
 /*informacoes*/
 .informacoes{
-    padding-left: 9vw;
+    padding-top: 2vw;
+    padding-left: 6.5vw;
     padding-right: 27vw;
 }
 
-.carousel-inner .card{
-    width: 270px;
-    border: 0;
+/*carrossel*/
+.row.carrossel-interno .card-carrossel{
+    width: 18.9vw;
+    margin-right: 2vw;
+    padding-left: 1.5vw;
 }
 
-.carousel-inner div.imagem{
-    width: 270px;
-    height: 190px;
+.carousel-item{
+    height: 26vw;
+}
+
+.row.carrossel-interno .card-carrossel .div-imagem-carrossel{
+    width: 18.9vw;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 1px solid #D5D5D5;
     opacity: 1;
 }
 
-.carousel-inner img.card-img-top{
-    width: 260px;
-    height: 180px;
-    opacity: 1;
-    margin: .2vw
+.row.carrossel-interno .card-carrossel .div-imagem-carrossel img{
+    width: 18vw;
+    height: auto;
+    opacity: 1;   
+    margin: .4vw;    
 }
 
+.row.carrossel-interno .card-carrossel .card-body-carrossel{
+    margin-top: .9vw; 
+}
+
+.row.carrossel-interno .card-carrossel .card-body-carrossel p.titulo{
+    text-align: left;
+    font-size: 1.2vw;
+    font-family: SegoeUI-Italic, Segoe UI;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 0;
+    color: #000000;
+    opacity: 1;
+    margin: 0;
+}
+
+.row.carrossel-interno .card-carrossel .card-body-carrossel p.texto{
+    text-align: left;
+    font-size: .9vw;
+    line-height: 1.3vw;
+    font-family: SegoeUI-Light, Segoe UI;
+    letter-spacing: 0;
+    color: #000000;
+    opacity: 1;
+    margin-top: .9vw;
+}
+
+.carousel-indicators{
+    margin: 0;
+}
+
+.carousel-indicators li{
+    background: #D5D5D5 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.carousel-indicators .active {
+    opacity: 1;
+    background: #808080 0% 0% no-repeat padding-box;
+}
+
+.carrossel a span{
+    width: 3.2vw;
+    height: 3.2vw;
+    margin-bottom: 9.4vw;
+    margin-right: 3.5vw;
+}
+
+.carousel-control-prev-icon{
+    background-image: url(imagens/Grupo\ 66.svg);
+}
+
+.carousel-control-next-icon{
+    background-image: url(imagens/Grupo\ 67.svg);
+}
+
+/*informacoes2*/
 .informacoes .informacoes2{
     padding: 0;
     margin-bottom: 3.5vw;
