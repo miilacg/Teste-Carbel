@@ -2,13 +2,6 @@
 @import url('https://db.onlinewebfonts.com/c/2076303bae3446cc70b72e395db449af?family=FoundryMonolineOT3W08-MedIta');
 @import url('https://db.onlinewebfonts.com/c/623c7118249e082fe87a78e08506cb4b?family=Segoe+UI');
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,600,700&display=swap');
-/*17px  1vw
-  21px  1.3vw
-  30px  2vw
-  51px  3.2vw
-  80px  5vw
-  228px 14.5vw*/
-
 body, html{
     width: 100%;
     overflow-x: hidden;
@@ -99,8 +92,12 @@ body, html{
 }
 
 /*banner*/
-.img-banner{
+.img-banner-pc{
     width: 100%;
+}
+
+.img-banner-mobile{
+    display: none;
 }
 
 .vencedor{
@@ -271,6 +268,10 @@ select.unidade{
 }
 
 /*banner 2*/
+.banner .img-banner{
+    width: 100%;
+}
+
 .banner .texto{
     margin-top: -7.5vw; 
     margin-left: 6.8vw;
@@ -278,7 +279,10 @@ select.unidade{
 
 h1{
     text-align: left;
-    font: Italic 2.45vw/3.3vw FoundryMonolineOT3W08-MedIta;
+    font-size: 2.45vw;
+    line-height: 3.3vw;
+    font-family: SegoeUI-Italic, Segoe UI;
+    font-style: italic;
     letter-spacing: 0;
     color: #FFFFFF;
     opacity: 1;
@@ -287,7 +291,9 @@ h1{
 
 .banner .texto h3{
     text-align: left;
-    font: 1.33vw/1.5vw Foundry Monoline;
+    font-size: 1.33vw;
+    line-height: 1.5vw;
+    font-family: SegoeUI, Segoe UI;
     letter-spacing: 0;
     color: #FFFFFF;
     opacity: 1;
@@ -550,6 +556,7 @@ h1{
 .card-footer{
     justify-content: center;
     align-items: center;
+    display: flex;
 }
 
 .ibama label{

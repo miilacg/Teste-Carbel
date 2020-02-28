@@ -1,0 +1,334 @@
+@media  (max-width: 370px){
+    /*card-header*/
+    .card-header, .bg-light{
+        width: 100%;
+        height: 11vw;
+        justify-content: space-around;
+        padding-bottom: 1.2vw;
+    }
+
+    .navbar-brand.localizacao{
+        margin-right: 21vw;
+    }
+
+    .navbar img{
+        height: 5.45vw;
+    }
+
+    .navbar img.img-carta{
+        height: 4vw;
+    }
+
+    .navbar label{
+        display: none;
+    }
+
+    /*header*/
+    .header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header .logo_banzai{
+        width: 45vw;
+        height: auto;
+    }
+
+    .header .logo_banzai img{
+        width: 45vw;
+        height: auto;
+        margin: 4vw 0vw 6vw 3vw;
+    }
+
+    .header .contato{
+        margin: 2vw 0vw 2vw 0vw;
+    }
+
+    .header .contato h5{
+        font: Italic 3.5vw Foundry Monoline;
+    }
+
+    .header .contato h3{
+        font: Italic 6vw FoundryMonoline-ExBdIta;  
+    }
+
+    /*banner*/
+    .banner{
+        display: flex;
+    }
+
+    .vencedor{
+        display: none;
+    }
+
+    .img-banner-pc{
+        display: none;
+    }
+
+    .img-banner-mobile{
+        width: 100%;
+        display: block;
+    }
+
+    .img-banner-mobile.civic{
+        margin: 2.5vw 0vw 0vw 0vw;
+        padding: 0vw 11vw 0vw 11vw;
+        width: 100%;
+    }   
+
+    .modal-contato{
+        width: 87vw;
+        height: 88vw;
+        margin: 10vw 0vw 10vw 10.5vw;
+    }
+
+    .modal-contato .titulo{
+        margin: 4vw 0vw 4vw 3.5vw;
+    }
+
+    .modal-contato .titulo .texto-titulo h6{
+        font: 3.6vw Foundry Monoline;
+    }
+
+    .modal-contato .titulo .texto-titulo h3{
+        font: 5.8vw Foundry Monoline;
+    }
+
+    .modal-contato .titulo img.img-telefone{
+        width: 9.2vw;
+        height: 9.2vw;
+        margin: .5vw 2.5vw 0vw 0vw;
+    }
+
+    .formulario{
+        width: 78vw;
+        height: 9.7vw;
+        margin: 0vw 3vw 1vw 3vw;
+        font-size: 3.7vw;
+    }
+
+    input[type = 'email']{
+        background-position-x: 2vw;
+        background-size: 4.2vw;
+        text-indent: 8vw;
+    }
+
+    input[type = 'text']{
+        background-position-x: 2vw;
+        background-size: 3.9vw;
+        text-indent: 8vw;
+    }
+
+    input[type = 'number']{
+        background-position-x: 2vw;
+        background-size: 4vw;
+        text-indent: 8vw;
+    }
+
+    select.horario{
+        background-position-x: 2vw;
+        background-size: 4vw;
+        text-indent: 7.5vw;
+    }
+
+    select.unidade{
+        background-position-x: 2vw;
+        background-size: 3.6vw;
+        text-indent: 7.5vw;
+    }
+
+    .botao{
+        width: 78vw;
+        height: 11.5vw;
+        font-size: 3.7vw;
+        margin: 0vw 3vw 0vw 3vw;
+    }
+
+    /*propaganda*/
+    .propaganda .propaganda-fotos .fotos-trio div{
+        display: none;
+    }
+
+    .propaganda{
+        padding: 0vw 6vw 0vw 8vw;
+    }
+    
+    .propaganda .propaganda-fotos .foto-unica img{
+        width: 88vw;  
+    }
+    
+    .propaganda .propaganda-texto{
+        padding: 6vw 2vw 8vw 0vw;
+        width: 87vw;
+    }
+
+    .propaganda .propaganda-texto p{
+        text-align: center;
+        font: 4.45vw/6vw Foundry Monoline;
+    }
+
+    /*banner 2*/
+    .banner .img-banner{
+        width: 100%;
+    }
+
+    .banner .texto{
+        margin: -43vw 9vw 0vw 9vw;  
+    }
+
+    h1{
+        text-align: center;
+        font-size: 6.4vw;
+        line-height: 8vw;
+    }
+
+    .banner .texto h3{
+        text-align: center;
+        font-size: 4.4vw;
+        line-height: 5.2vw;
+    }  
+
+    /*informacoes*/
+    .informacoes{
+        padding: 0vw 6vw 0vw 8vw;
+        margin: 0;
+    }
+
+    /*informacoes2*/
+    .informacoes .informacoes2 .row.cards p{
+        display: none;
+    }
+
+    .informacoes2 .cards .card.pc{
+        display: none;
+    }
+
+    .informacoes .informacoes2{
+        margin: 10vw 0vw 0vw 0vw;
+        padding-right: 2vw;
+    }
+
+    .informacoes .informacoes2 h1{
+        margin-top: 6vw;
+    }    
+
+    .informacoes .informacoes2 p{
+        text-align: center;
+        font: 4vw/5.2vw Foundry Monoline;
+    }
+
+    .informacoes .informacoes2 .row.cards{
+        margin: 0;
+    }
+
+    .informacoes2 .cards .card{
+        width: 84vw;
+        height: 52vw;
+        margin-bottom: 25vw;
+    }
+
+    .informacoes2 .cards .card img.card-img-top{
+        width: 60vw;
+        height: auto;
+        align-self: initial;
+    }
+
+    .informacoes2 .cards .card .botao-conheca{
+        width: 84vw;
+        height: 9.2vw;
+        font: 3.2vw Roboto;
+        margin: 6vw 0vw 0vw -.4vw;
+    }
+
+    /*card-contato*/
+    .card-contato{
+        height: 87vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .row.contato{
+        padding-top: 3.5vw;
+    }
+
+    .contato .container{
+        width: 70vw;
+        height: 21vw;
+        margin: 1vw;
+    }
+
+    .contato .container.localiza{
+        background-position-y: center;
+        background-position-x: 4vw;
+        background-size: 8vw;
+        text-indent: 15vw;
+    }    
+
+    .card-contato h3{
+        font: 5.5vw Foundry Monoline;      
+    }
+
+    .card-contato .telefone h3{
+        font: Italic 7vw FoundryMonoline-ExBdIta;
+    }
+
+    .card-contato h4{
+        font: Italic 4.7vw/5.8vw Foundry Monoline;
+        margin-bottom: 3vw;
+    }
+
+    .card-contato h5{
+        font: Italic 4.4vw/5.2vw Foundry Monoline;
+        margin-top: 2.6vw;
+    }
+
+    .card-contato h6{
+        font-size: 3.5vw;
+        letter-spacing: 0;
+        margin-top: 4vw;
+    }
+
+    .redes-sociais{
+        text-align: center;
+        width: 70vw;
+        margin-top: 4.5vw;
+    }
+
+    .redes-sociais img{
+        height: 11vw;
+    }
+
+    .redes-sociais img.facebook, .redes-sociais img.instagram{
+        margin-right: 3.2vw;
+    }
+
+    /*card-footer*/
+    .card-footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ibama{
+        margin-top: 7vw;
+        margin-bottom: 8vw;
+    }
+
+    .ibama label{
+        font-size: 3vw;
+    }
+
+    .logo_banzai img{
+        width: 28vw;
+        height: 7vw;
+        margin: 0;
+        margin-top: 1.5vw;
+
+    }
+
+    .ibama img{
+        width: 12vw;
+        height: 14vw;
+    }
+}
