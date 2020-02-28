@@ -411,6 +411,55 @@
         margin: 0;
     }
 
+    /*carrossel*/
+    .carrossel{
+        margin: 0vw 3.5vw 0vw 0vw;
+    }
+
+    .row.carrossel-interno .card-carrossel{
+        width: 25vw;
+        margin-right: 2vw;
+    }
+
+    .carousel-item{
+        height: 34vw;
+    }
+
+    .row.carrossel-interno .card-carrossel{
+        margin-left: 1vw;
+    }
+
+    .row.carrossel-interno .card-carrossel .div-imagem-carrossel{
+        width: 26.5vw;
+    }
+
+    .row.carrossel-interno .card-carrossel .div-imagem-carrossel img{
+        width: 25.4vw;   
+    }
+
+    .row.carrossel-interno .card-carrossel .card-body-carrossel{
+        margin-top: 1vw; 
+    }
+
+    .row.carrossel-interno .card-carrossel .card-body-carrossel p.titulo{
+        font-size: 1.45vw;
+    }
+
+    .row.carrossel-interno .card-carrossel .card-body-carrossel p.texto{
+        font-size: 1vw;
+    }
+
+    .carrossel a span{
+        width: 3.2vw;
+        height: 3.2vw;
+        margin-bottom: 14.3vw;
+        margin-right: 3vw;
+    }
+
+    .carrossel a span.carousel-control-next-icon{
+        margin-left: 4.5vw;
+    }
+
     /*informacoes2*/
     .informacoes .informacoes2 .row.cards p{
         display: none;
@@ -421,7 +470,7 @@
     }
 
     .informacoes .informacoes2{
-        margin: 10vw 0vw 0vw 0vw;
+        margin: 8vw 0vw 0vw 0vw;
         padding-right: 2vw;
     }
 
@@ -444,10 +493,16 @@
         margin-bottom: 25vw;
     }
 
+    .informacoes2 .cards .card .card-body{
+        width: 0;
+        height: 0;
+    }
+
     .informacoes2 .cards .card img.card-img-top{
-        width: 60vw;
-        height: 100%;
-        margin-top: 8vw;
+        width: 55vw;
+        height: auto;
+        margin-top: 0vw;
+        margin-left: 3vw;
         align-self: initial;
     }
 
@@ -455,7 +510,7 @@
         width: 84vw;
         height: 9.2vw;
         font: 3.2vw Roboto;
-        margin: 18vw 0vw 0vw -.3vw;
+        margin: 8vw 0vw 0vw -.3vw;
     }
 
     /*card-contato*/
@@ -550,66 +605,41 @@
     }
 }
 
-@media  (max-width: 549px){
-    /*informacoes2*/
-    .informacoes2 .cards .card img.card-img-top{
-        width: 60vw;
-        margin-top: 5vw;
-        align-self: initial;
+@media  (max-width: 285px){
+    /*card-header*/
+    .navbar img{
+        height: 5.5vw;
     }
 
+    .navbar img.img-carta{
+        height: 4.3vw;
+    }
+
+    /*informacoes2*/  
     .informacoes2 .cards .card .botao-conheca{
-        width: 84vw;
-        height: 9.2vw;
-        font: 3.2vw Roboto;
-        margin: 14vw 0vw 0vw -.3vw;
-    }
-}
-
-@media  (max-width: 470px){
-    /*informacoes2*/
-    .informacoes2 .cards .card img.card-img-top{
-        margin-top: 4vw;
+        margin: 7vw 0vw 0vw -.3vw;
     }
 
-    .informacoes2 .cards .card .botao-conheca{
-        margin: 10vw 0vw 0vw -.3vw;
+    /*card-footer*/
+    .ibama{
+        margin-top: 7vw;
+        margin-bottom: 8vw;
     }
-}
 
-@media  (max-width: 420px){
-    /*informacoes2*/
-    .informacoes2 .cards .card img.card-img-top{
-        width: 60vw;
-        height: auto;
-        align-self: initial;
-        padding: 0vw;
+    .ibama label{
+        font-size: 3.3vw;
+    }
+
+    .logo_banzai img{
+        width: 37vw;
+        height: 12vw;
+        margin: 0;
         margin-top: 1.5vw;
+
     }
 
-    .informacoes2 .cards .card .botao-conheca{
-        margin: 8vw 0vw 0vw -.4vw;
-    }
-}
-
-@media  (max-width: 390px){
-    /*informacoes2*/
-    .informacoes2 .cards .card img.card-img-top{
-        width: 60vw;
-        height: auto;
-        align-self: initial;
-        padding: 0vw;
-        margin-top: 0vw;
-    }
-
-    .informacoes2 .cards .card .botao-conheca{
-        margin: 6vw 0vw 0vw -.4vw;
-    }
-}
-
-@media  (max-width: 310px){
-    /*informacoes2*/
-    .informacoes2 .cards .card .botao-conheca{
-        margin: 3vw 0vw 0vw -.4vw;
+    .ibama img{
+        width: 13vw;
+        height: 16vw;
     }
 }
