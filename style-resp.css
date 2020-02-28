@@ -1,4 +1,220 @@
-@media  (max-width: 370px){
+@media  (min-width: 1194px){
+    /*card-header*/
+    .card-header, .bg-light{
+        height: 2.5vw;
+    }
+}
+
+@media  (min-width: 930px) and (max-width: 1193px){
+    /*card-header*/
+    .card-header, .bg-light{
+        height: 2.5vw;
+    }
+
+    .navbar-home, .navbar-contato{
+        margin-top: -.4vw;
+    }
+
+    .navbar img{
+        height: 1.4vw;
+    }
+
+    .navbar img.img-carta{
+        height: 1.1vw;
+    }
+
+    .navbar label{
+        font-size: .9vw;
+    }
+}
+
+@media  (min-width: 700px) and (max-width: 929px){
+    /*card-header*/
+    .card-header, .bg-light{
+        height: 2.5vw;
+    }
+
+    .navbar-home, .navbar-contato{
+        margin-top: -.8vw;
+    }
+
+    .navbar img{
+        height: 1.4vw;
+    }
+
+    .navbar img.img-carta{
+        height: 1.1vw;
+    }
+
+    .navbar label{
+        font-size: .92vw;
+    }
+    
+    /*banner*/
+    .modal-contato .titulo{
+        margin-bottom: .8vw;
+    }    
+    
+    .formulario{
+        margin-bottom: 0vw;    
+    }
+
+    .botao{
+        height: 3.1vw;
+        margin-top: .4vw; 
+    }
+}
+
+@media  (min-width: 650px) and (max-width: 700px){
+    /*card-header*/
+    .card-header, .bg-light{
+        height: 2.7vw;
+    }
+
+    .navbar-home, .navbar-contato{
+        margin-top: -1.2vw;
+    }
+
+    .navbar-brand.localizacao{
+        margin-right: 2.2vw;
+    }
+
+    .navbar img{
+        height: 1.5vw;
+    }
+    
+    .navbar img.img-localizacao{
+        height: 1.6vw;
+    }
+
+    .navbar img.img-carta{
+        height: 1.15vw;
+    }
+
+    .navbar label{
+        font-size: .95vw;
+    }
+    
+    /*banner*/
+    .modal-contato{
+        width: 19.5vw;
+        height: 27vw;
+        padding: 1.5vw;
+        margin-bottom: .5vw;
+    }
+
+    .modal-contato .titulo{
+        margin-bottom: .5vw;
+    } 
+    
+    .modal-contato .titulo .texto-titulo h6{
+        font: 1.1vw/1.4vw Foundry Monoline;
+    }
+    
+    .modal-contato .titulo .texto-titulo h3{
+        font: 1.8vw/2vw Foundry Monoline;
+    }
+    
+    .modal-contato .titulo img.img-telefone{
+        height: 3.2vw;
+    }
+    
+    .formulario{
+        width: 16.6vw;
+        height: 3.2vw;        
+        font-size: 1.1vw;
+        margin-bottom: -.5vw;
+    }
+    
+    input[type = 'email']{
+        background-position-x: 0.6vw;
+        background-size: 1.3vw;
+        text-indent: 2.5vw;
+    }
+    
+    input[type = 'text']{
+        background-position-x: 0.6vw;
+        background-size: 1.2vw;
+        text-indent: 2.2vw;
+    }
+    
+    input[type = 'number']{
+        background-position-x: 0.6vw;
+        background-size: 1.3vw;
+        text-indent: 2.5vw;
+    }
+    
+    select.horario{
+        background-position-x: 0.6vw;
+        background-size: 1.4vw;
+        text-indent: 2.1vw;
+    }
+    
+    select.unidade{
+        background-position-x: 0.6vw;
+        background-size: 1vw;
+        text-indent: 2.1vw;
+    }
+    
+    .botao{
+        width: 16.6vw;
+        height: 3.3vw;
+        font: Bold 1vw Roboto;
+        margin-top: .2vw;
+    }
+
+    /*informacoes2*/
+    .informacoes2 .cards .card .botao-conheca{
+        font: .9vw/.6vw Roboto;
+    }
+
+    /*card-contato*/
+    .card-contato{
+        height: 15.5vw;
+    }
+
+    .card-contato .telefone h3{
+        font: Italic 1.6vw/2vw FoundryMonoline-ExBdIta;
+    }
+
+    .card-contato h4{
+        font: Italic 1.5vw/1.5vw Foundry Monoline;
+        margin: 0;
+    }
+
+    .card-contato h5{
+        font: Italic 1vw/1.2vw Foundry Monoline;
+    }
+
+    .redes-sociais{
+        margin-top: .9vw;
+    }
+
+    .redes-sociais img{
+        margin-top: 1vw;
+        height: 2.8vw;
+    }
+
+    .redes-sociais img.facebook, .redes-sociais img.instagram{
+        margin-right: .5vw;
+    }
+
+    /*card-footer*/
+    .ibama label{
+        font-size: 1vw;
+    }
+
+    .logo_banzai img{
+        height: 3vw;
+
+    }
+
+    .ibama img{
+        height: 4vw;
+    }
+}
+
+@media  (max-width: 649px){
     /*card-header*/
     .card-header, .bg-light{
         width: 100%;
@@ -230,7 +446,8 @@
 
     .informacoes2 .cards .card img.card-img-top{
         width: 60vw;
-        height: auto;
+        height: 100%;
+        margin-top: 8vw;
         align-self: initial;
     }
 
@@ -238,7 +455,7 @@
         width: 84vw;
         height: 9.2vw;
         font: 3.2vw Roboto;
-        margin: 6vw 0vw 0vw -.4vw;
+        margin: 18vw 0vw 0vw -.3vw;
     }
 
     /*card-contato*/
@@ -330,5 +547,69 @@
     .ibama img{
         width: 12vw;
         height: 14vw;
+    }
+}
+
+@media  (max-width: 549px){
+    /*informacoes2*/
+    .informacoes2 .cards .card img.card-img-top{
+        width: 60vw;
+        margin-top: 5vw;
+        align-self: initial;
+    }
+
+    .informacoes2 .cards .card .botao-conheca{
+        width: 84vw;
+        height: 9.2vw;
+        font: 3.2vw Roboto;
+        margin: 14vw 0vw 0vw -.3vw;
+    }
+}
+
+@media  (max-width: 470px){
+    /*informacoes2*/
+    .informacoes2 .cards .card img.card-img-top{
+        margin-top: 4vw;
+    }
+
+    .informacoes2 .cards .card .botao-conheca{
+        margin: 10vw 0vw 0vw -.3vw;
+    }
+}
+
+@media  (max-width: 420px){
+    /*informacoes2*/
+    .informacoes2 .cards .card img.card-img-top{
+        width: 60vw;
+        height: auto;
+        align-self: initial;
+        padding: 0vw;
+        margin-top: 1.5vw;
+    }
+
+    .informacoes2 .cards .card .botao-conheca{
+        margin: 8vw 0vw 0vw -.4vw;
+    }
+}
+
+@media  (max-width: 390px){
+    /*informacoes2*/
+    .informacoes2 .cards .card img.card-img-top{
+        width: 60vw;
+        height: auto;
+        align-self: initial;
+        padding: 0vw;
+        margin-top: 0vw;
+    }
+
+    .informacoes2 .cards .card .botao-conheca{
+        margin: 6vw 0vw 0vw -.4vw;
+    }
+}
+
+@media  (max-width: 310px){
+    /*informacoes2*/
+    .informacoes2 .cards .card .botao-conheca{
+        margin: 3vw 0vw 0vw -.4vw;
     }
 }
